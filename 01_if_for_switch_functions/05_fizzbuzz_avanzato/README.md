@@ -1,11 +1,11 @@
 # FizzBuzz Avanzato con Switch
 
-Scrivi un programma che stampa i numeri da 1 a `n` (letto da stdin), ma con le seguenti regole:
+Scrivi un programma che stampa i numeri da 1 a `n` (letto da stdin), ma con le seguenti regole applicate con questo oridine:
 
-- Se il numero è multiplo di 3, stampa `"Fizz"`
-- Se il numero è multiplo di 5, stampa `"Buzz"`
-- Se il numero è multiplo sia di 3 che di 5, stampa `"FizzBuzz"`
 - Se il numero è primo, stampa `"Prime"`
+- Se il numero è multiplo sia di 3 che di 5, stampa `"FizzBuzz"`
+- Se il numero è multiplo di 5, stampa `"Buzz"`
+- Se il numero è multiplo di 3, stampa `"Fizz"`
 - Altrimenti stampa il numero
 
 Le regole sono prioritarie: `"FizzBuzz"` ha la priorità più alta, poi `"Fizz"`/`"Buzz"`, poi `"Prime"`.
@@ -36,26 +36,16 @@ Restituisce la stringa corretta per il numero `n` secondo le regole sopra.
 
 Input:
 ```
-16
+6
 ```
 
 Output:
 ```
 1
-2
 Prime
-Fizz
+Prime
+4
 Buzz
-Prime
-Fizz
-Prime
-Fizz
-Buzz
-Fizz
-Prime
-FizzBuzz
-14
-Prime
 Fizz
 ```
 
