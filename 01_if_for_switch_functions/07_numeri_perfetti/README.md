@@ -1,8 +1,8 @@
 # Numeri Perfetti
 
 Un numero **perfetto** e un numero intero positivo uguale alla somma dei suoi divisori (escluso il numero stesso). Ad esempio:
-- 6 e perfetto: 1 + 2 + 3 = 6
-- 28 e perfetto: 1 + 2 + 4 + 7 + 14 = 28
+- 6 è perfetto: 1 + 2 + 3 = 6
+- 28 è perfetto: 1 + 2 + 4 + 7 + 14 = 28
 
 Scrivi un programma che, dato un numero `n` da stdin, trova e stampa tutti i numeri perfetti da 1 a `n`.
 
@@ -16,7 +16,7 @@ Restituisce la somma di tutti i divisori propri di `n` (escluso `n` stesso).
 ```go
 func EPerfetto(n int) bool
 ```
-Restituisce `true` se `n` e un numero perfetto.
+Restituisce `true` se `n` è un numero perfetto.
 
 ## Esempio
 
