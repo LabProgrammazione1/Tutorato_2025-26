@@ -48,7 +48,7 @@ go test -v .
 
 Potrebbe essere necessario eseguire il comando:
 ```bash
-go mod init main
+go mod init [nome esercizio]
 ```
 
 nella cartella contenente main e test (la cartella deve contenere solamente un esercizio e il suo test)
