@@ -24,7 +24,7 @@ golang
 Output:
 ```
 Tentativo 1/6: Troppo corto
-Tentativo 2/6: Troppo lungo
+Tentativo 2/6: Lunghezza giusta, riprova!
 Tentativo 3/6: Hai indovinato!
 Vittoria in 3 tentativi!
 ```
@@ -44,7 +44,7 @@ Output:
 Tentativo 1/6: Troppo corto
 Tentativo 2/6: Troppo corto
 Tentativo 3/6: Troppo corto
-Tentativo 4/6: Troppo lungo
+Tentativo 4/6: Lunghezza giusta, riprova!
 Tentativo 5/6: Troppo corto
 Tentativo 6/6: Troppo corto
 Hai perso! La parola era: golang
