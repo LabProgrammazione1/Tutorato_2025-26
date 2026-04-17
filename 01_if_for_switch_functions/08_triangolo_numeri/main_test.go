@@ -15,7 +15,7 @@ func runExercise(input string) (string, error) {
 	if err := cmd.Run(); err != nil {
 		return "", err
 	}
-	return strings.TrimSpace(out.String()), nil
+	return out.String(), nil
 }
 
 func TestTriangolo(t *testing.T) {
