@@ -2,10 +2,10 @@
 
 Scrivi un programma che stampa i numeri da 1 a `n` (letto da stdin), ma con le seguenti regole applicate con questo oridine:
 
-- Se il numero è primo, stampa `"Prime"`
-- Se il numero è multiplo sia di 3 che di 5, stampa `"FizzBuzz"`
-- Se il numero è multiplo di 5, stampa `"Buzz"`
 - Se il numero è multiplo di 3, stampa `"Fizz"`
+- Se il numero è multiplo di 5, stampa `"Buzz"`
+- Se il numero è multiplo sia di 3 che di 5, stampa `"FizzBuzz"`
+- Se il numero è primo, stampa `"Prime"`
 - Altrimenti stampa il numero
 
 Le regole sono prioritarie: `"FizzBuzz"` ha la priorità più alta, poi `"Fizz"`/`"Buzz"`, poi `"Prime"`.
@@ -43,7 +43,7 @@ Output:
 ```
 1
 Prime
-Prime
+Fizz
 4
 Buzz
 Fizz
