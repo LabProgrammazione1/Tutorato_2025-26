@@ -1,6 +1,6 @@
 # Numeri Perfetti
 
-Un numero **perfetto** e un numero intero positivo uguale alla somma dei suoi divisori propri (tutti i divisori escluso il numero stesso). Ad esempio:
+Un numero **perfetto** e un numero intero positivo uguale alla somma dei suoi divisori (escluso il numero stesso). Ad esempio:
 - 6 e perfetto: 1 + 2 + 3 = 6
 - 28 e perfetto: 1 + 2 + 4 + 7 + 14 = 28
 
