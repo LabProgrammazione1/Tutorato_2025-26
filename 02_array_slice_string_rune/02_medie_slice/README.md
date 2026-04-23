@@ -45,8 +45,12 @@ Sotto la media: 2
 ## Vincoli
 
 - La lettura termina quando ricevi **EOF** (CTRL+D).
-- La media deve essere calcolata come `float64`.
+- La media deve essere calcolata come `float64` e stampata con esattamente 2 cifre decimali.
 
 ---
 
 _Guarda il file [SUGGERIMENTI.md](../SUGGERIMENTI.md) per spunti su come risolvere l'esercizio._
+
+---
+
+_Ricordati di eseguire i test per verificare la correttezza della tua soluzione!_

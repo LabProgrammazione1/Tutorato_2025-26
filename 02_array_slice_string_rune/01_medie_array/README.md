@@ -45,8 +45,12 @@ Sotto la media: 5
 
 ## Vincoli
 
-- La media deve essere calcolata come `float64`. Se il risultato è un numero intero, la stampa può omettere la parte decimale (comportamento standard di `fmt.Print`).
+- La media deve essere calcolata come `float64` e stampata con esattamente 2 cifre decimali.
 
 ---
 
 _Guarda il file [SUGGERIMENTI.md](../SUGGERIMENTI.md) per spunti su come risolvere l'esercizio._
+
+---
+
+_Ricordati di eseguire i test per verificare la correttezza della tua soluzione!_

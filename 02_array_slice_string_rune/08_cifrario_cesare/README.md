@@ -5,6 +5,7 @@ Implementa il **cifrario di Cesare**, una tecnica di decifrazione in cui ogni le
 ## Problema
 
 Il programma deve:
+
 1. Ricevere la chiave `k` come **argomento da riga di comando** (CLI argument).
 2. Leggere il testo cifrato da **standard input** (può occupare più righe) fino a **EOF**.
 3. Decifrare il testo usando la chiave `k`.
@@ -12,7 +13,7 @@ Il programma deve:
 
 ## Input/Output
 
-- **Input**: 
+- **Input**:
   - Riga di comando: `./programma <k>` dove `k` è la chiave (numero intero)
   - Standard input: il testo cifrato (fino a EOF con CTRL+D)
 - **Output**: Una riga che inizia con `Decifrato: ` seguita dal testo decifrato.
@@ -20,6 +21,7 @@ Il programma deve:
 ## Esempio
 
 **Riga di comando e input**:
+
 ```text
 ./program 3
 fldr
@@ -27,6 +29,7 @@ fldr
 ```
 
 **Output**:
+
 ```text
 Decifrato: ciao
 ```
@@ -34,6 +37,7 @@ Decifrato: ciao
 **Esempio con testo su più righe**:
 
 **Riga di comando e input**:
+
 ```text
 ./program 3
 def ghil
@@ -42,6 +46,7 @@ abc xyz
 ```
 
 **Output**:
+
 ```text
 Decifrato: abc def
 xyz uvw
@@ -59,3 +64,7 @@ xyz uvw
 ---
 
 _Guarda il file [SUGGERIMENTI.md](../SUGGERIMENTI.md) per spunti su come risolvere l'esercizio._
+
+---
+
+_Ricordati di eseguire i test per verificare la correttezza della tua soluzione!_

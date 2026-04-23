@@ -20,6 +20,8 @@ Qui trovi alcuni spunti utili per risolvere gli esercizi di questa sezione. Non 
 
 - Guarda l'esempio nella documentazione: https://pkg.go.dev/bufio#example-Scanner-Lines
 
+- **Formattazione output con numeri float**: Usa `fmt.Printf("%.2f", valore)` per stampare numeri floating-point con esattamente 2 cifre decimali. Ad esempio, `fmt.Printf("Media: %.2f\n", media)` stamperà la media con due decimali.
+
 ## Strutture Dati
 
 - **Array**: Hanno dimensione fissa dichiarata al momento della creazione: `[10]int`. Non possono crescere.
@@ -35,8 +37,6 @@ Qui trovi alcuni spunti utili per risolvere gli esercizi di questa sezione. Non 
 - **Ordinamento**: Il pacchetto `sort` offre funzioni per ordinare slice di tipi base. Cerca nella documentazione come ordinare slice di `int` o `string`.
 
 - **Manipolazione Caratteri ASCII**: In ASCII, la distanza tra una lettera maiuscola (es. 'A') e la sua minuscola ('a') è fissa (32). Puoi usare questa informazione per conversioni manuali se non vuoi usare `strings.ToLower`.
-
-- **String Building**: Quando devi costruire una stringa pezzo per pezzo, concatenare molte stringhe con `+` può essere inefficiente. Considera di usare alternative più efficienti.
 
 ## Suggerimenti per Specifici Esercizi
 

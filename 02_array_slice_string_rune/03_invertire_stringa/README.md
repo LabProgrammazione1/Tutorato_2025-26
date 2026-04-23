@@ -37,3 +37,7 @@ olleh
 ---
 
 _Guarda il file [SUGGERIMENTI.md](../SUGGERIMENTI.md) per spunti su come risolvere l'esercizio._
+
+---
+
+_Ricordati di eseguire i test per verificare la correttezza della tua soluzione!_
