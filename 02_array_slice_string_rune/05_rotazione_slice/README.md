@@ -6,7 +6,7 @@ Scrivi un programma che legge numeri interi, quindi un numero `k`, e ruota la sl
 
 Il programma deve:
 
-1. Leggere numeri interi fino a EOF.
+1. Leggere una sequenza di numeri interi.
 2. Leggere un numero `k` (il numero di posizioni per ruotare).
 3. Implementare una funzione che ruota la slice di `k` posizioni verso destra.
 4. Stampare sia la slice originale che la slice ruotata.
@@ -14,7 +14,7 @@ Il programma deve:
 ## Input/Output
 
 - **Input**:
-  - Riga 1 (fino a EOF): numeri interi separati da spazi (premi **CTRL+D** per terminare)
+  - Riga 1: numeri interi separati da spazi
   - Riga successiva: numero `k` (numero di posizioni per ruotare)
 - **Output**: Due righe:
   - `Originale: [...]` (elementi della slice originale tra parentesi quadre)

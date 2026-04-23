@@ -38,7 +38,7 @@ Il programma deve calcolare:
 **Output**:
 
 ```text
-Media: 55
+Media: 55.00
 Sopra la media: 5
 Sotto la media: 5
 ```
