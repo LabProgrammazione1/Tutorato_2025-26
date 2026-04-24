@@ -37,17 +37,3 @@ Qui trovi alcuni spunti utili per risolvere gli esercizi di questa sezione. Non 
 - **Ordinamento**: Il pacchetto `sort` offre funzioni per ordinare slice di tipi base. Cerca nella documentazione come ordinare slice di `int` o `string`.
 
 - **Manipolazione Caratteri ASCII**: In ASCII, la distanza tra una lettera maiuscola (es. 'A') e la sua minuscola ('a') è fissa (32). Puoi usare questa informazione per conversioni manuali se non vuoi usare `strings.ToLower`.
-
-## Suggerimenti per Specifici Esercizi
-
-- **Contare occorrenze**: Usa una struttura dati (array o slice) per contare il numero di volte che appare ogni elemento.
-
-- **Inversione di stringhe**: Lavora con le rune, non con i byte.
-
-- **Palindromi**: Confronta gli elementi da entrambi i lati verso il centro. Ricordati di ignorare spazi e differenze maiuscole/minuscole.
-
-- **Rotazione**: Quando l'indice di rotazione è maggiore della lunghezza, il modulo è tuo amico.
-
-- **Cifrario**: Pensa al ciclo dell'alfabeto e come "tornare indietro" in un ciclo.
-
-- **Compressione**: Conta quanti caratteri identici appaiono consecutivamente, quindi costruisci la stringa compressa.
