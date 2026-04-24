@@ -10,8 +10,8 @@ Il programma deve:
 2. Memorizzarli in una **slice**.
 3. Calcolare e stampare:
    - La media aritmetica.
-   - Il numero di valori sopra la media.
-   - Il numero di valori sotto la media.
+   - Il numero di valori strettamente sopra la media.
+   - Il numero di valori strettamente sotto la media.
 
 ## Input/Output
 
