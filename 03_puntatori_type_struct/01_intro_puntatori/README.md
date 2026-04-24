@@ -14,7 +14,6 @@ Implementa le seguenti funzioni:
 - `Scambia(a, b *int)`: Scambia i valori di due interi usando puntatori
 - `DistanzaDaOrigine(p Punto) float64`: Calcola la distanza del punto dall'origine
 - `Sposta(p *Punto, dx, dy float64)`: Modifica le coordinate del punto
-- `Sqrt(x float64) float64`: Calcola la radice quadrata
 
 ## Input/Output
 
@@ -57,7 +56,6 @@ Dopo spostamento (1.00, 1.00): (4.00, 5.00)
   func Scambia(a, b *int)
   func DistanzaDaOrigine(p Punto) float64
   func Sposta(p *Punto, dx, dy float64)
-  func Sqrt(x float64) float64
   ```
 - `Scambia` deve ricevere i parametri per puntatore per poterli modificare
 - `Sposta` deve ricevere il punto per puntatore per poterlo modificare

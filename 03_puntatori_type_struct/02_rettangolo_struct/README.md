@@ -13,22 +13,20 @@ Il programma deve:
 
 ## Input/Output
 
-- **Input**: Due righe di input da stdin:
-  - Riga 1: base e altezza del rettangolo (due float64)
-  - Riga 2: fattore di scala (un float64)
+- **Input**: Argomenti da riga di comando (CLI args):
+  - Argomento 1: base del rettangolo (float64)
+  - Argomento 2: altezza del rettangolo (float64)
+  - Argomento 3: fattore di scala (float64)
 - **Output**: Informazioni sequenziali sul rettangolo originale, le proprietà geometriche, e lo stato dopo la scalatura
 
 ## Esempio
 
-**Input**:
-
+**Riga di comando**:
 ```
-4 6
-2
+./program 4 6 2
 ```
 
 **Output**:
-
 ```
 Rettangolo: Base=4.00, Altezza=6.00
 Area: 24.00
@@ -49,7 +47,7 @@ Nuova area: 96.00
 - `Area` e `Perimetro` possono ricevere il rettangolo per valore (non lo modificano)
 - `Scala` deve ricevere il rettangolo per puntatore per poterlo modificare
 - Stampa tutti i numeri in virgola mobile con esattamente 2 decimali
-- Leggi i valori di input da stdin
+- Leggi i valori di input da **argomenti da riga di comando** (CLI args, non da stdin)
 
 ---
 
