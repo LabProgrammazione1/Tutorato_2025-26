@@ -1,11 +1,25 @@
-# Tutorato Programmazione 1 — Laboratorio Go
+# Tutorato Programmazione 1 2026
 
-Repository didattica per il corso di Programmazione 1.
+Repository didattica per il tutorato di Programmazione 1.
+
+## Informazioni logistiche
+
+Dipartimento di informatica, Aula Sigma, venerdì 13:30 - 16:30.
+- 17 Aprile 2026: if, for, switch, functions
+- 24 Aprile 2026: array, slice, string, rune
+- 8 Maggio 2026: puntatori, type, struct
+- 15 Maggio 2026: mappe
+- 22 Maggio 2026: ricorsione
+- 29 Maggio 2026: ripasso, esercizi d'esame
+
+> [!NOTE]
+> È sempre possibile (e incoraggiato) fare domande su qualsiasi argomento!
+
+## Come lavorare su un esercizio
+
 Contiene **esercizi** organizzati in **6 capitoli** tematici, con difficoltà crescente.
 
 Ogni esercizio è autonomo: ha una traccia (`README.md`), uno scheletro da completare (`main.go`) e test automatici (`main_test.go`).
-
-## Come Lavorare su un Esercizio
 
 ### 1. Leggi la traccia
 
@@ -54,7 +68,7 @@ go mod init [nome esercizio]
 nella cartella contenente main e test (la cartella deve contenere solamente un esercizio e il suo test)
 
 
-### Output dei Test
+### Output dei test
 
 **Quando i test passano:**
 
@@ -70,10 +84,3 @@ nella cartella contenente main e test (la cartella deve contenere solamente un e
 ```
 
 Il messaggio ti dice quale asserzione è fallita, leggilo bene!
-
-## Progressione Consigliata
-
-1. **Segui l'ordine dei capitoli** — ogni capitolo introduce concetti nuovi che servono per il successivo
-2. **Dentro ogni capitolo, procedi in ordine** — dal più semplice al più difficile
-3. **Non saltare l'Intro** — serve a familiarizzare con il formato e i concetti base
-4. **Se un esercizio e troppo difficile** — torna al precedente, consolida le basi
