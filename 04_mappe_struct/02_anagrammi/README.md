@@ -39,19 +39,13 @@ ehllo: 1
 
 ## Vincoli
 
-Implementa le seguenti funzioni:
+Implementa la seguente funzione:
 
 ```go
 func FirmaAnagramma(parola string) string
 ```
 
 Calcola la "firma" di una parola ordinando i suoi caratteri. Due parole sono anagrammi se hanno la stessa firma. Ad esempio, "listen" e "silent" hanno entrambe firma "eilnst".
-
-```go
-func ContaAnagrammi(parole []string) map[string]int
-```
-
-Conta quante parole condividono ogni "firma" (cioè quanti anagrammi ci sono per ogni pattern). Ritorna una mappa dove la chiave è la firma e il valore è il numero di parole con quella firma.
 
 **Specifiche aggiuntive**:
 
